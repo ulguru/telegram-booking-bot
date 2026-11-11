@@ -11,6 +11,20 @@ Telegram-бот для онлайн-записи клиентов в студи�
 - Команды мастера: `/today`, `/tomorrow` — расписание на день
 - Услуги, цены, рабочие часы и выходные настраиваются в `config.py`
 
+## Скриншоты
+
+| Выбор услуги | Выбор даты | Выбор времени |
+|:---:|:---:|:---:|
+| <img src="screenshots/1-services.webp" width="280"> | <img src="screenshots/2-dates.webp" width="280"> | <img src="screenshots/3-time.png" width="280"> |
+
+| Подтверждение | Запись создана + уведомление мастеру |
+|:---:|:---:|
+| <img src="screenshots/4-confirm.webp" width="280"> | <img src="screenshots/5-booked.png" width="200"> |
+
+| Мои записи | Отмена записи |
+|:---:|:---:|
+| <img src="screenshots/6-my-bookings.webp" width="380"> | <img src="screenshots/7-cancelled.png" width="380"> |
+
 ## Стек
 Python 3.11+, aiogram 3 (FSM), SQLite (aiosqlite)
 
